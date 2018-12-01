@@ -1,14 +1,17 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+title: How to prepare for an interview at a large tech company
+date: 2018-12-01T15:04:10.000Z
+description: >-
+  Google, Amazon, and Apple.. they all have one thing in common a rigidly formal
+  and efficient interview process designed to bring in big numbers and quickly
+  skim them down.
 tags:
-  - flavor
-  - tasting
+  - programming
+  - career
+  - interviews
 ---
-
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/adobestock_202310757.jpeg)
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 
