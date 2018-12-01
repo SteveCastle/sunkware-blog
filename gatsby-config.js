@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Sunkware',
+    title: 'SunkWare: A Tech Blog',
     description:
       'This is the personal tech blog of Stephen Castle. Articles about, programming, working in the tech industry, and the philosophy of computing.'
   },
