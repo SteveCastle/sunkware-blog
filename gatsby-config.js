@@ -105,8 +105,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
-        printRejected: true,
         whitelistPatternsChildren: [
+          /^pre/,
           /language/,
           /line-numbers/,
           /token/,
