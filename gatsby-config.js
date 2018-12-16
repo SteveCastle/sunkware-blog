@@ -109,7 +109,16 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-purgecss'
+      resolve: 'gatsby-plugin-purgecss',
+      options: {
+        whitelistPatternsChildren: [
+          /^pre/,
+          /language/,
+          /line-numbers/,
+          /token/,
+          /highlight/
+        ]
+      }
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
