@@ -105,20 +105,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
+        pathToConfigModule: `src/utils/typography`
+      }
     },
     {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        whitelistPatternsChildren: [
-          /^pre/,
-          /language/,
-          /line-numbers/,
-          /token/,
-          /highlight/
-        ]
-      }
+      resolve: 'gatsby-plugin-purgecss'
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
