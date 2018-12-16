@@ -7,7 +7,10 @@ description: >-
   shopping library for react using the new hooks API. It is just getting started
   but I want to test out a codesandbox.com embed on gatsby.
 tags:
-  - programming react hooks ecommerce
+  - programming
+  - react
+  - hooks
+  - ecommerce
 ---
 This post will be an exploration in to creating a complete theoretical shopping library for react using the new hooks API. It is just getting started but I want to test out a codesandbox.com embed on gatsby.
 
