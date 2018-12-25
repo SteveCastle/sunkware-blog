@@ -17,19 +17,22 @@ tags:
 I was curious to see what an e-commerce platform might look like if rewritten
 with hooks. This shop app is a toy demonstration of some patterns that might be
 used to construct some of the fundamental features of a shop, with product
-search and filtering, a detail view, and a cart system.
+search and filtering, a detail view, and a cart system. I plan to expand and
+refactor it slowly overtime as the hooks ecosystem evolves over the coming
+months to use as a reference.
 
 ## The Goal
 
 Build a general purpose shop library that can be imported into any react app,
 connected to an API, and provide pluggable shop functionality to be implemented
-however the user wants in their components.
+however the user wants in their components. The excellent Algolia InstantSearch
+react library is an inspiration for this.
 
 ## The Architecture.
 
-1. `<ShopProvider />` is a component exported by shop.js. It provides any global
-   shop state for the shop app in the form of a `useReducer`. It can be used by
-   the other hooks by providing an action dispatcher, and state.
+1. `<ShopProvider />` is a component exported by `shop.js`. It provides any
+   global shop state for the shop app in the form of a `useReducer`. It can be
+   used by the other hooks by providing an action dispatcher, and state.
 
 2. `<CollectionProvider />` is another provider for connecting state between a
    list of products, and any number of search widgets. It should let the user
@@ -42,11 +45,16 @@ however the user wants in their components.
 
 1. The provider pattern is causing unnecessary re-renders when adding an item to
    the cart because every component is consuming the global shop state which
-   contains the cart state.
-2. I want to connect this to GRAPHQL but it is still uncertain what the hooks
-   api from Apollo will look like so I will probably evolve this over time.
+   contains the cart state. I am experimenting with the new useMemo and
+   rearranging the provider components and reducers to find the best way to do
+   this.
+2. I want to connect this to GRAPHQL and replace the static mock API but it is
+   still uncertain what the hooks API from Apollo will look like so I will
+   probably evolve this slowly over time as thing in the community solidify.
 3. The filtering functionality is a simplistic demo, I would like to flesh it
    out with server side filtering, sorting, and self rendering filter sets
    generated from introspecting the GRAPHQL API
+4. I would like to see what using `Suspense` with the `useEffect` hook would
+   look like.
 
 <iframe src="https://codesandbox.io/embed/x701xr63xp" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
