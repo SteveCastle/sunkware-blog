@@ -37,9 +37,11 @@ react library is an inspiration for this.
 2. `<CollectionProvider />` is another provider for connecting state between a
    list of products, and any number of search widgets. It should let the user
    have more than one collections with different filter state, and results.
-3. Functionality is exported from `shop.js` in the form of custom reducers like
+3. Functionality is exported from `shop.js` in the form of custom hooks like
    `useCart`. Each of these reducers can compose functionality both from the
-   core React reducers and the other `shop.js` custom reducers.
+   core React reducers and the other `shop.js` custom reducers. But the goal is
+   for the user to need only one specific hook import to perform a set of
+   commonly related shop actions in their components.
 
 ## Next Steps
 
