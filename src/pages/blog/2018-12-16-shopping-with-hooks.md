@@ -11,11 +11,42 @@ tags:
   - javascript
   - react
   - hooks
-  - ecommerce
+  - e-commerce
 ---
 
-This post will be an exploration in to creating a complete theoretical shopping
-library for react using the new hooks API. It is just getting started but I want
-to test out a codesandbox.com embed on gatsby.
+I was curious to see what an e-commerce platform might look like if rewritten
+with hooks. This shop app is a toy demonstration of some patterns that might be
+used to construct some of the fundamental features of a shop, with product
+search and filtering, a detail view, and a cart system.
+
+## The Goal
+
+Build a general purpose shop library that can be imported into any react app,
+connected to an API, and provide pluggable shop functionality to be implemented
+however the user wants in their components.
+
+## The Architecture.
+
+1. `<ShopProvider />` is a component exported by shop.js. It provides any global
+   shop state for the shop app in the form of a `useReducer`. It can be used by
+   the other hooks by providing an action dispatcher, and state.
+
+2. `<CollectionProvider />` is another provider for connecting state between a
+   list of products, and any number of search widgets. It should let the user
+   have more than one collections with different filter state, and results.
+3. Functionality is exported from `shop.js` in the form of custom reducers like
+   `useCart`. Each of these reducers can compose functionality both from the
+   core React reducers and the other `shop.js` custom reducers.
+
+## Next Steps
+
+1. The provider pattern is causing unnecessary re-renders when adding an item to
+   the cart because every component is consuming the global shop state which
+   contains the cart state.
+2. I want to connect this to GRAPHQL but it is still uncertain what the hooks
+   api from Apollo will look like so I will probably evolve this over time.
+3. The filtering functionality is a simplistic demo, I would like to flesh it
+   out with server side filtering, sorting, and self rendering filter sets
+   generated from introspecting the GRAPHQL API
 
 <iframe src="https://codesandbox.io/embed/x701xr63xp" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
