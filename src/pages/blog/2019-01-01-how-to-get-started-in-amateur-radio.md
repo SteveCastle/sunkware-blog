@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: How and why to get started with Amateur Radio in 2015
-date: 2018-12-16T21:02:20.866Z
+title: How and why to get started with Amateur Radio in 2019
+date: 2019-01-01T21:02:20.866Z
 description: >-
   This post will be an exploration in to creating a complete theoretical
   shopping library for react using the new hooks API. It is just getting started
