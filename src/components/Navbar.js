@@ -5,14 +5,13 @@ import logo from '../img/logo.svg';
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
-    <div className="container">
+    <div className="container content">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
           <img src={logo} alt="Sunkware" style={{ width: '30px' }} />
         </Link>
       </div>
-      <div className="navbar-start">
-      </div>
+      <div className="navbar-start" />
       <div className="navbar-end">
         <a
           className="navbar-item"

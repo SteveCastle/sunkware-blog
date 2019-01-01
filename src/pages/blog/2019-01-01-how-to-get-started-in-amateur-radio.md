@@ -10,6 +10,7 @@ tags:
   - ham radio
   - technology
 ---
+
 I've always wanted to get my ham radio license. The hobby seemed to have an
 alluring culture full of electronic technical whiz kids and grizzled old
 tinkerers. These are guys who know Morse code and wear huge closed ear
@@ -80,20 +81,21 @@ applications.
 If practical reasons are not good enough, then here are a few less practical
 reasons.
 
-* You can communicate with the International Space Station.
-* You can learn cool lingo like QSO and QRT. [More Lingo](http://www.qrz.com/page/hamspeak.html)
-* Possibly the only hobby shared by nerds, farmers, and bikers.
-* You might be the youngest person at the club meetings if you join a club.
-* Talk to someone in Taiwan by bouncing radio signals off the damned ionosphere
+- You can communicate with the International Space Station.
+- You can learn cool lingo like QSO and QRT.
+  [More Lingo](http://www.qrz.com/page/hamspeak.html)
+- Possibly the only hobby shared by nerds, farmers, and bikers.
+- You might be the youngest person at the club meetings if you join a club.
+- Talk to someone in Taiwan by bouncing radio signals off the damned ionosphere
   or idk maybe the moon if you feel like it(yeah you can do that).
-* Casually bring up space weather in conversation with other operators. "Man the
+- Casually bring up space weather in conversation with other operators. "Man the
   10 Meter band is wide open tonight! Ground wave propagation is insane during
   this solar maximum!"
-* If society comes to an end you will have the skills to be a valuable
+- If society comes to an end you will have the skills to be a valuable
   contributor on any wasteland survival gang, provided they do not cultivate a
   violent and primitive anti technology religion with which to demonize the
   modern avarice that lead to the downfall of mankind.
-* According to movies, learning Morse code will almost definitely save your life
+- According to movies, learning Morse code will almost definitely save your life
   at some point.
 
 ![Girl looking at radio.](/img/adobestock_56964234.jpg)
@@ -121,20 +123,20 @@ things out.
 
 ### Technician
 
-* 35 question exam
-* Can broadcast on UHF and VHF Bands
+- 35 question exam
+- Can broadcast on UHF and VHF Bands
 
 ### General
 
-* Must pass Technician exam first.
-* 35 question exam
-* All VHF/UHF Amateur bands and most HF privileges (10 through 160 meters).
+- Must pass Technician exam first.
+- 35 question exam
+- All VHF/UHF Amateur bands and most HF privileges (10 through 160 meters).
 
 ### Extra
 
-* Must pass Technician and General exam first
-* 50 question exam
-* All Amateur band privileges.
+- Must pass Technician and General exam first
+- 50 question exam
+- All Amateur band privileges.
 
 Before you go and take your exam you should decide which class you want to go
 for. The easiest and first class is technician, then general, and then extra. To
@@ -147,10 +149,12 @@ level.
 
 ### Resources
 
-* Technician Class study guide: [Download](http://www.kb6nu.com/wp-content/uploads/2010/06/2010_Tech_Study_Guide.pdf)
-* Practice exams: [ARRL Practice Tests](http://arrlexamreview.appspot.com/)
-* Find a testing time and location [Testing Schedule](http://www.arrl.org/find-an-amateur-radio-license-exam-session/)
-* Show up and pass the exam!
+- Technician Class study guide:
+  [Download](http://www.kb6nu.com/wp-content/uploads/2010/06/2010_Tech_Study_Guide.pdf)
+- Practice exams: [ARRL Practice Tests](http://arrlexamreview.appspot.com/)
+- Find a testing time and location
+  [Testing Schedule](http://www.arrl.org/find-an-amateur-radio-license-exam-session/)
+- Show up and pass the exam!
 
 ## Getting your license and call sign
 
@@ -161,6 +165,7 @@ have to wait until the FCC verifies and issues your license. They no longer send
 you a paper document, but rather when approved your new call sign and
 information will be added to their license database which you can check on line.
 This can take anywhere from one to a few weeks depending on how backed up they
-are. You just have to keep checking![ FCC License Search](http://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp) Once you have been
-issued a call sign and license you are approved to get on the air for all the
-bands approved for your class!
+are. You just have to keep checking.
+[ FCC License Search](http://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp)
+Once you have been issued a call sign and license you are approved to get on the
+air for all the bands approved for your class!
