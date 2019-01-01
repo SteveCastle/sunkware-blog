@@ -15,8 +15,8 @@ tags:
 ---
 
 What might an e-commerce UI library might look like if rewritten with hooks?
-This shop app is an experiment using some of patterns that might be helpful in
-the design of such a library. As the hooks ecosystem evolves over the coming
+This shop app is an experiment using some of the patterns that might be helpful
+in the design of such a library. As the hooks ecosystem evolves over the coming
 months I plan to expand and refactor it slowly overtime to use as a reference.
 
 ## The Goal
