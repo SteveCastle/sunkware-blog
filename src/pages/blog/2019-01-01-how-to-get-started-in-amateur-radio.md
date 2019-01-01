@@ -46,9 +46,7 @@ really that easy.
 
 ![Dog wearing sunglasses with a radio.](/img/adobestock_68615649.jpg)
 
-```
-It's cool to learn about radio waves!
-```
+> It's cool to learn about radio waves!
 
 ## Why get involved with amateur radio?
 
@@ -100,9 +98,7 @@ reasons.
 
 ![Girl looking at radio.](/img/adobestock_56964234.jpg)
 
-```
-Oh radio, you are so interesting, tell me your secrets bb.
-```
+> Oh radio, you are so interesting, tell me your secrets bb.
 
 ## Passing the exam and getting licensed
 

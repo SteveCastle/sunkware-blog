@@ -5,7 +5,7 @@ import logo from '../img/logo.svg';
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
-    <div className="container content">
+    <div className="container center">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
           <img src={logo} alt="Sunkware" style={{ width: '30px' }} />

@@ -14,19 +14,17 @@ tags:
   - e-commerce
 ---
 
-I was curious to see what an e-commerce platform might look like if rewritten
-with hooks. This shop app is a toy demonstration of some patterns that might be
-used to construct some of the fundamental features of a shop, with product
-search and filtering, a detail view, and a cart system. I plan to expand and
-refactor it slowly overtime as the hooks ecosystem evolves over the coming
-months to use as a reference.
+What might an e-commerce UI library might look like if rewritten with hooks?
+This shop app is an experiment using some of patterns that might be helpful in
+the design of such a library. As the hooks ecosystem evolves over the coming
+months I plan to expand and refactor it slowly overtime to use as a reference.
 
 ## The Goal
 
-Build a general purpose shop library that can be imported into any react app,
-connected to an API, and provide pluggable shop functionality to be implemented
-however the user wants in their components. The excellent Algolia InstantSearch
-react library is an inspiration for this.
+Build a general purpose shop UI library that can be imported into any react app,
+connected to an API, and provide pluggable shop functionality with minimal
+declarative setup. The excellent Algolia InstantSearch react library is an
+inspiration for this.
 
 ## The Architecture
 
@@ -39,9 +37,11 @@ react library is an inspiration for this.
    have more than one collections with different filter state, and results.
 3. Functionality is exported from `shop.js` in the form of custom hooks like
    `useCart`. Each of these reducers can compose functionality both from the
-   core React reducers and the other `shop.js` custom reducers. But the goal is
-   for the user to need only one specific hook import to perform a set of
-   commonly related shop actions in their components.
+   core React reducers and the other `shop.js` custom reducers. The goal is for
+   the user to need only one custom hook import to perform a set of commonly
+   related shop actions in their components. For example importing `useCart`
+   should give a user all of the functionality required to manipulate or display
+   the shopping cart.
 
 ## Next Steps
 
