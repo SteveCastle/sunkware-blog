@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'SunkWare: A Tech Blog',
+    siteUrl: `https://sunkware.com`,
     description:
       'This is the personal tech blog of Stephen Castle. Articles about, programming, working in the tech industry, and the philosophy of computing.'
   },
@@ -8,6 +9,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-favicon',
+    'gatsby-plugin-sitemap',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
