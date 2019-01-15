@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Shopping with Hooks
+title: A Serverless Appetizer
 date: 2019-01-16T21:02:20.866Z
 description: >-
   A case study of a serverless app built with AWS AppSync and a variety of other
