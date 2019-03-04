@@ -4,15 +4,12 @@ import github from '../img/github-icon.svg';
 import logo from '../img/logo.svg';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
-    <div className="container center">
+  <nav className="navbar is-transparent sticky">
+    <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
           <img src={logo} alt="Sunkware" style={{ width: '30px' }} />
         </Link>
-      </div>
-      <div className="navbar-start" />
-      <div className="navbar-end">
         <a
           className="navbar-item"
           href="https://github.com/SteveCastle"
@@ -24,6 +21,8 @@ const Navbar = () => (
           </span>
         </a>
       </div>
+      <div className="navbar-start" />
+      <div className="navbar-end" />
     </div>
   </nav>
 );
