@@ -15,7 +15,7 @@ const Navbar = () => (
           </Link>
           <a
             className="navbar-item"
-            href="https://punknaturalism.netlify.com"
+            href="https://punknaturalism.com"
             target="_blank"
             rel="noopener noreferrer"
           >
