@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Shopping with Hooks
-date: 2018-12-16T21:02:20.866Z
+date: 2018-12-17T21:02:20.866Z
 description: >-
   This post will be an exploration in to creating a complete theoretical
   shopping library for react using the new hooks API. It is just getting started
