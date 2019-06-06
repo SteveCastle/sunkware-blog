@@ -8,9 +8,9 @@ tags:
   - Go
 ---
 
-I was asked to implement an iterator in an interview once, I wanted to try doing it in Go
-for a little quick practice.  Below is the simplest possible implementation. Then we can
-add some features to it as we go.
+I was asked to implement an iterator in python for an interview once. For a little quick practice
+I thought it might be interesting to try the same question in Go.Below is the simplest possible implementation
+just to get things started. Then we can add some simple features to it as we go.
 
 ```go{numberLines: true}
 package main
@@ -109,7 +109,7 @@ func main() {
 ```
 
 Now what if we wanted to chain calls to next for some reason? We
-can make the next() method on interface return an Iterator.
+can make the `next()` method on interface return an `Iterator`.
 Then update the implementation to return its self.
 
 ```go{numberLines: true}
@@ -133,7 +133,9 @@ type Doubler struct {
 }
 
 // Iterator interface requires one method with no params
-// and no return value.
+// To have types calling next() return themselves
+// we can have a method signature that returns an Iterator..
+// Even from inside the interface definition.
 type Iterator interface {
 	next() Iterator
 }
