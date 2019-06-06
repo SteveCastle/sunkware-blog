@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Implementing an Iterator in Go
-date: 2018-12-03T15:04:10.000Z
+date: 2019-06-06T15:04:10.000Z
 tags:
   - programming
   - code challenges
@@ -41,10 +41,10 @@ func (c *Counter) next() {
 }
 
 
-// 
 func main() {
 	counter := Counter{Value: 0}
 	counter.next()
+	// Wow Counter.Value is now 1. Hoorray.
 	fmt.Println(counter)
 }
 ```
