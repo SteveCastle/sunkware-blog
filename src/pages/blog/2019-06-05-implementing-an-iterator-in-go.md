@@ -21,7 +21,7 @@ import (
 
 
 // Create a Counter type
-// that we can later implement Iterator interaface on.
+// that we can later implement Iterator interface on.
 type Counter struct {
 	Value int
 }
